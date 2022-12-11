@@ -3,8 +3,11 @@
 #include <stdio.h>
 
 /**
- * Main - prints the value of n status; zero, positive or negative 
- * Return: 0 if successful, non-zero otherwise
+ * main - Entry point
+ *
+ * Description: print value of n status; zero, positive or negative
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
