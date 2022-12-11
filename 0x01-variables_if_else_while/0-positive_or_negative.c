@@ -3,7 +3,9 @@
 #include <stdio.h>
 /**
  * Main - Entry level
+ *
  * Descrition: print value of n status; zero, positive or negative
+ *
  * Return: Always 0 (successful)
  */
 
