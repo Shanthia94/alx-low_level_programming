@@ -10,16 +10,29 @@
  */
 void print_number(int n)
 {
-	unsigned int i = n;
+	unsigned int tens, digit, positive = n;
+	double t_beg = 1;
 
-	if (n < 0)
+	if (n == 0)
+		putchar('0');
+	else
 	{
-		putchar(45);
-		i = -i;
+		if (n < 0)
+		{
+			positive = n * -1;
+			putchar('-');
+		}
+
+		while (t_beg <= positive)
+			t_beg *= 10;
+		tens = t_beg / 10;
+
+		while (tens >= 1)
+		{
+			digit = positive / tens;
+			putchar(digit + '0');
+			positive = (positive - (tens * digit));
+			tens /= 10;
+		}
 	}
-	if (i / 10)
-	{
-		print_number(i / 10);
-	}
-	putchar(i % 10 + '0');
 }
