@@ -10,7 +10,7 @@
 int _abs(int t)
 {
 	if (t >= 0)
-		return(t);
+		return (t);
 	else
-		return(-t);
+		return (-t);
 }
