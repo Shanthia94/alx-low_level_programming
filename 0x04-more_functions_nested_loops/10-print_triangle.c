@@ -4,7 +4,7 @@
 /**
  * print_triangle - Entry point
  * @size: size ofnthe triangle
- * Description: print a traingle 
+ * Description: print a traingle
  *
  * Return: void
  */
@@ -31,5 +31,5 @@ void print_triangle(int size)
 	putchar('\n');
 		}
 	}
-}	
+}
 
