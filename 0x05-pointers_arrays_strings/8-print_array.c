@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_array - prints an element of an array of intergers
  * @a: int to be checked
  * @n: int to be checked
  * Return: 0 if successful
  */
-
 void print_array(int *a, int n)
 {
 	int x;
