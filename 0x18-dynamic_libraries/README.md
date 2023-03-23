@@ -1,1 +1,1 @@
-This project is on Dynamic Libraries
+Dynamic Libraries
